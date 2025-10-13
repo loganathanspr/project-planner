@@ -1,18 +1,43 @@
-# Issue: [Short verb-based title, e.g. “Implement prompt builder logic”]
+### Issue: <Concise Action-Oriented Title>
 
-**Type:** feature / bug / infra / test / doc  
-**Goal:** Clear outcome (what should exist after completion)  
-**Steps:** Step-by-step tasks or acceptance actions  
-**Acceptance Criteria:** Observable success or measurable condition  
-**Dependencies:** Related issues (if any)  
-**Labels:** [area], [type], [priority]  
-**Estimate:** XS / S / M / L (1h, ½d, 1d, 2d+)
+**Type:** Feature | Fix | Refactor | Infra | Doc  
+**Epic:** <Epic Name or Link>  
+**Labels:** mvp-1, backend, ai, etc.
 
 ---
 
-### Notes:
+#### 🎯 Goal
 
-- Issues should be atomic and completable in ≤1–2 days.
-- Define clear finish lines — use measurable criteria.
-- Use consistent naming and linking to MVPs (e.g. `ISS-01.1.3`).
-- Avoid vague placeholders (“Improve UX”) — be concrete.
+Describe the purpose of this issue — what value or outcome does it achieve?
+
+---
+
+#### 🧩 Description
+
+What needs to be done? Focus on intent (not low-level detail).
+
+---
+
+#### ✅ Definition of Done (DoD)
+
+- [ ] All acceptance criteria met
+- [ ] Code reviewed / validated
+- [ ] No blocking dependencies
+
+---
+
+#### ⛓️ Dependencies
+
+(Optional) List dependent issues or tasks. Example: Depends on `#12`.
+
+---
+
+#### ⏱️ Estimation
+
+Approximate effort: `~0.5d`, `~1d`, etc.
+
+---
+
+#### 💡 Notes (Optional)
+
+Any context, references, or Copilot/AI prompt hints.

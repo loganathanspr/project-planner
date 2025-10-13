@@ -1,18 +1,44 @@
-# Epic: [Short, action-oriented name]
+# 🧩 Epic: <Epic Title>
 
-**Goal:** What is the purpose of this epic? (1–2 sentences)  
-**Why:** Why this matters (user value, learning, or system impact)  
-**Boundaries (Out of Scope):** What’s explicitly _not included_  
-**Deliverables:** Tangible outcomes (e.g., MVPs, docs, demos)  
-**Definition of Done (DoD):** What must exist to mark this epic complete  
-**Dependencies:** Other epics or external inputs  
-**Labels:** epic, [domain], [team/area]
+**Goal:**  
+Describe the high-level outcome or value this epic delivers.
+
+**Labels:**  
+`mvp-1`, `ai`, `backend`, `infra`, etc.
 
 ---
 
-### Notes:
+## 🎯 Description
 
-- Keep scope limited to one clear goal.
-- Avoid mixing domains or unrelated tasks.
-- Split large epics (>4 weeks) into smaller ones.
-- Once MVPs are defined, freeze this epic’s scope.
+Explain the purpose of this epic and how it contributes to the overall vision.  
+Keep it short and outcome-based, not task-based.
+
+---
+
+## ✅ Definition of Done (DoD)
+
+- [ ] Outcome achieved and verified
+- [ ] No open issues remain under this epic
+- [ ] Meets quality and acceptance criteria
+
+---
+
+## 🧩 Issues
+
+List of issues under this epic:
+
+- [ ] `#` Issue 1: <description>
+- [ ] `#` Issue 2: <description>
+- [ ] `#` Issue 3: <description>
+
+---
+
+## ⏱️ Estimation
+
+Rough duration: `~1–2 weeks`
+
+---
+
+## 💡 Notes
+
+Any design notes, constraints, or context.
