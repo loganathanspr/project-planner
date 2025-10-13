@@ -23,6 +23,7 @@ Generate:
    - Each epic delivers one visible outcome
    - Must have clear Definition of Done (DoD)
    - Keep duration small (1–2 weeks)
+   - Order epics by value and complexity: ship low-hanging fruit first; defer extremely complex epics
 2. **Issues** for each Epic using `ISSUE_TEMPLATE.md`
    - Small, atomic, action-oriented tasks
    - Estimated <1 day each
@@ -35,6 +36,7 @@ Generate:
 - Use action verbs in issue titles.
 - Include clear DoD in every level.
 - Use labels instead of extra layers (e.g., MVP → `mvp-1`, `mvp-2`).
+- Sequence for fast, demonstrable value: return epics as an explicitly ordered list from lowest complexity/highest immediate value to highest complexity. Note any dependencies that influence order.
 
 ### Example
 

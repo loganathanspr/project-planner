@@ -32,27 +32,29 @@ Keep it short (5–10 lines max).
 
 ## 🧱 Best Practices for Epics
 
-| Principle                       | Description                                                |
-| ------------------------------- | ---------------------------------------------------------- |
-| 🎯 **Clear Outcome**            | Defines a functional or visible deliverable.               |
-| 🕓 **Short-Lived**              | Done within 1–2 weeks.                                     |
-| 🧩 **Self-Contained**           | Independent from other epics as much as possible.          |
-| ✅ **Definition of Done (DoD)** | Observable and verifiable outcome.                         |
-| 🚫 **No Endless Scope**         | Once done → closed; new ideas → new epic.                  |
-| 🏷️ **Use Labels for MVPs**      | Replace “MVP” layer with simple labels (`mvp-1`, `mvp-2`). |
+| Principle                           | Description                                                                                                                                     |
+| ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🎯 **Clear Outcome**                | Defines a functional or visible deliverable.                                                                                                    |
+| 🕓 **Short-Lived**                  | Done within 1–2 weeks.                                                                                                                          |
+| 🧩 **Self-Contained**               | Independent from other epics as much as possible.                                                                                               |
+| ✅ **Definition of Done (DoD)**     | Observable and verifiable outcome.                                                                                                              |
+| 🚫 **No Endless Scope**             | Once done → closed; new ideas → new epic.                                                                                                       |
+| 🏷️ **Use Labels for MVPs**          | Replace “MVP” layer with simple labels (`mvp-1`, `mvp-2`).                                                                                      |
+| 🔢 **Sequence by Value/Complexity** | Prioritize and order epics so quick wins (low complexity, high value) ship first; defer extremely complex epics until after demonstrable value. |
 
 ---
 
 ## 🔹 Best Practices for Issues
 
-| Principle                   | Description                                          |
-| --------------------------- | ---------------------------------------------------- |
-| ⚡ **Atomic**               | Achievable in <1 day or a few hours.                 |
-| ✍️ **Action-Oriented**      | Use verbs (“Implement”, “Design”, “Fix”, “Write”).   |
-| 🎯 **Goal-Focused**         | Express intent, not implementation.                  |
-| ✅ **DoD-Driven**           | Each issue must have measurable completion criteria. |
-| ⛓️ **Dependencies Visible** | Reference related issues (`#12`) or epics.           |
-| 🧠 **AI-Friendly Context**  | Include short notes for Copilot/AI assistance.       |
+| Principle                   | Description                                                                                                             |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| ⚡ **Atomic**               | Achievable in <1 day or a few hours.                                                                                    |
+| ✍️ **Action-Oriented**      | Use verbs (“Implement”, “Design”, “Fix”, “Write”).                                                                      |
+| 🎯 **Goal-Focused**         | Express intent, not implementation.                                                                                     |
+| ✅ **DoD-Driven**           | Each issue must have measurable completion criteria.                                                                    |
+| ⛓️ **Dependencies Visible** | Reference related issues (`#12`) or epics.                                                                              |
+| 🧠 **AI-Friendly Context**  | Include short notes for Copilot/AI assistance.                                                                          |
+| 🔀 **Respect Epic Order**   | When planning sprints, pull issues from earlier (lower-complexity) epics first unless blocked by explicit dependencies. |
 
 ---
 
@@ -63,3 +65,4 @@ Keep it short (5–10 lines max).
 - Let **new ideas become new epics**.
 - Keep the **vision stable**, allow **epics/issues to evolve**.
 - Always **define done before starting**.
+- Deliver **demonstrable value early** by sequencing work from low-hanging fruit to higher complexity; record reasons when deviating from the order.
