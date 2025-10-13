@@ -1,59 +1,76 @@
 # Project Planner
 
-A minimal, anti-fragility Markdown system to go from Vision → Epics → Issues with clear, verifiable outcomes.
+A minimal, anti-fragility Markdown system to go from **Vision → Epics → Issues** with clear, verifiable outcomes.
 
-## What's inside
+---
 
-- `BEST-PRACTICES.md` — Principles and checklists for resilient planning.
-- `PLANNER-PROMPT.md` — AI prompt to convert a free-style vision into Epics and Issues.
+## 📦 What's Inside
+
+- `BEST-PRACTICES.md` — Principles and checklists for resilient planning
+- `PLANNER-PROMPT.md` — AI prompt to convert a free-style vision into structured Epics and Issues
 - `templates/` — Ready-to-use templates:
   - `VISION-TEMPLATE.md`
   - `EPIC-TEMPLATE.md`
   - `ISSUE-TEMPLATE.md`
-- `examples/` — Sample plans, e.g. `LinguaNotes-PLAN.md`.
+- `examples/` — Example plans such as `LinguaNotes-PLAN.md`
 
-## Quickstart
+---
 
-1. Draft your Vision
+## 🚀 Quickstart
 
-- Copy `templates/VISION-TEMPLATE.md` and write a short free-style vision (5–10 lines: Purpose, Value, Scope, Outcomes, Constraints).
+### 1. Draft Your Vision
 
-2. Generate Epics and Issues with AI
+Copy `templates/VISION-TEMPLATE.md` and write a short free-style vision (5–10 lines):
 
-- Open `PLANNER-PROMPT.md` and paste your vision.
-- Ask your AI to produce Epics (1–2 weeks each, clear DoD) and Issues (<1 day each, atomic, action-oriented).
+> Purpose, Value, Scope, Outcomes, and Constraints.
 
-3. Sequence for fast value
+### 2. Generate Epics & Issues with AI
 
-- Order epics by value and complexity: ship low-hanging fruit first and defer extremely complex epics.
-- Note any dependencies that influence the order and keep epics self-contained where possible.
+Open `PLANNER-PROMPT.md`, paste your vision, and ask your AI to produce:
 
-4. Capture Epics
+- **Epics** (1–2 weeks each, clear DoD)
+- **Issues** (<1 day each, atomic and action-oriented)
 
-- Use `templates/EPIC-TEMPLATE.md` per epic. Ensure a clear Definition of Done (DoD), short description, and rough duration (~1–2 weeks).
+### 3. Sequence for Fast Value
 
-5. Break down into Issues
+- Order epics by **value and complexity** — ship low-hanging fruit first, defer the complex ones.
+- Note dependencies that affect order, keeping each epic self-contained where possible.
 
-- Use `templates/ISSUE-TEMPLATE.md` for small, verifiable tasks (<1 day). Include DoD, dependencies, and labels.
+### 4. Capture Epics
 
-6. Label instead of layers
+Use `templates/EPIC-TEMPLATE.md` for each epic.  
+Ensure clear **Definition of Done (DoD)**, concise description, and ~1–2 week scope.
 
-- Use labels like `mvp-1`, `mvp-2` to indicate phases rather than creating new plan layers.
+### 5. Break Down into Issues
 
-## Key principles (read this before you plan)
+Use `templates/ISSUE-TEMPLATE.md` for small, verifiable tasks (<1 day).  
+Include DoD, dependencies, and labels.
 
-See `BEST-PRACTICES.md` for full details. Highlights:
+### 6. Label Instead of Layers
 
-- Clear outcomes with a Definition of Done at every level.
-- Short-lived epics (1–2 weeks) and atomic issues (<1 day).
-- Self-contained epics; avoid epic bloat and endless scope.
-- Sequence by value/complexity — deliver demonstrable value early by shipping quick wins first.
-- Use labels (e.g., `mvp-1`) instead of extra structural layers.
+Use simple labels like `mvp-1`, `mvp-2` to indicate phases instead of creating additional plan layers.
 
-## Example
+---
 
-Check `examples/LinguaNotes-PLAN.md` for a concrete plan showing vision → epics → issues.
+## 🧠 Key Principles
 
-## Why this approach
+See `BEST-PRACTICES.md` for detailed guidance. Highlights:
 
-It keeps plans lightweight, adaptable, and verifiable. By sequencing low-complexity, high-value epics first, you get early demos, reduce risk, and gather feedback sooner.
+- Every level must have a **clear Definition of Done**.
+- Keep epics **short-lived** (1–2 weeks) and issues **atomic** (<1 day).
+- Avoid epic bloat — create new epics for new ideas.
+- **Sequence by value and complexity** to deliver demonstrable value early.
+- Prefer **labels** over structural hierarchies.
+
+---
+
+## 🧩 Example
+
+Check `examples/LinguaNotes-PLAN.md` for a real project plan showing Vision → Epics → Issues.
+
+---
+
+## 💡 Why This Approach Works
+
+This framework keeps plans **lightweight, adaptable, and verifiable**.  
+By shipping quick wins first, you build momentum, gather feedback early, and minimize planning fragility.
